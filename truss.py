@@ -7,6 +7,8 @@ from truss_definitions import Truss
 import os
 from dotenv import load_dotenv
 
+from truss_definitions import Truss
+
 load_dotenv()
 
 MATERIAL_COST_PER_FOOT = float(os.getenv("MATERIAL_COST_PER_FOOT", 10.0))
