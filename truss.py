@@ -3,8 +3,6 @@ import os
 
 from fastapi import FastAPI
 from pydantic import BaseModel
-from truss_definitions import Truss
-import os
 from dotenv import load_dotenv
 
 from truss_definitions import Truss
