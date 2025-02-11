@@ -4,7 +4,8 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import random
 from dotenv import load_dotenv
-import os
+
+from truss_definitions import Truss
 
 load_dotenv()
 
